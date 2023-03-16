@@ -1,3 +1,5 @@
+chmod u+x *
+chmod u-x README.md
 git add .
 git commit -m "new commit to C!!"
 git push
