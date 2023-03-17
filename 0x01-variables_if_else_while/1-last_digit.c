@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  * main - prints out last digit and some other tings
  * Return: 0 if success dammit
