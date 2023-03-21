@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * print_alphabet_x10 - check the code
+ *
+ * Return: Always 0.
+ */
+int _islower(int c)
+{
+	char lower[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 25; i++)
+	{
+		if (c == lower[i])
+		{
+			return (1);
+		}
+		continue;
+	}
+
+	return (0);
+
+}
