@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- * Return: Always 0.
+ * main - checks number if neg or pos
+ *
+ * Return: 0
  */
 int main(void)
 {
