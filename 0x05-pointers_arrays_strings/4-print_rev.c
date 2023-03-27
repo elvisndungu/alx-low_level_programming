@@ -1,8 +1,9 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * _puts - prints string followed by new line
- * @str: pointer a
+ * print_rev - prints string IN REVERSE
+ * @s: pointer s
  * Return: void .... nada
  */
 
@@ -14,10 +15,10 @@ void print_rev(char *s)
 
 	len = strlen(str);
 
-	for (i = (len-1); i >= 0; i--)
+	for (i = (len -  1); i >= 0; i--)
 	{
 		putchar(str[i]);
 	}
-
+	printf("\n");
 
 }
