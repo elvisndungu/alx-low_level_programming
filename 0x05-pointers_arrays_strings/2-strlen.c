@@ -1,18 +1,16 @@
+#include <string.h>
 #include "main.h"
 
 /**
- * swap_int - swaps values
- * @a: pointer a
- * @b: pointer b
- * Return: void .... nada
+ * _strlen  - prints len of pointer s
+ * @s: pointer to string s
+ * Return: integer .... len of te string
  */
 
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-	/* get temporally values of an b */
-	int ta = *a;
-	int tb = *b;
+	char *string = s;
+	int len = strlen(string);
 
-	*a = tb;
-	*b = ta;
+	return (len);
 }
