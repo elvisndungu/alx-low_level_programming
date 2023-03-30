@@ -1,0 +1,3 @@
+git add .
+git commit -m "🫠 added a new commit"
+git push
