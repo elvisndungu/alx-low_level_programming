@@ -14,7 +14,7 @@ void _print_rev_recursion(char *s)
 	{
 		return;
 	}
-	_print_rev_recursion(s+1);
+	_print_rev_recursion(s + 1);
 	/*
 	 * when we reach the end of str it will
 	 * return notin and allow the following code to run
