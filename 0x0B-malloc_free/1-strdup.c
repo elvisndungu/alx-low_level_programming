@@ -3,7 +3,7 @@
 /**
  * _strdup - function pointing to new copied memalloc
  * @str: string to be copied
- * Return: ptr to new memory location, Null otherwise
+ * Return: ptr to new memory location, Nada :)
  **/
 
 char *_strdup(char *str)
