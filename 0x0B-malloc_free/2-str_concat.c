@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * str_concat - function that concatenates two strings.
- * @s1: first string
- * @s2: second string
- * Return: new memory location or null otherwise
+ * str_concat - function that concatenates two strs
+ * @s1: str 1
+ * @s2: str 2
+ * Return: new memory location or return nada :)
  **/
 char *str_concat(char *s1, char *s2)
 {
