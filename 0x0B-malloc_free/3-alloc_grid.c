@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * alloc_grid - function to create a 2d integer grid
- * @width: number of columns
- * @height: number of rows
- * Return: pointer to grid or null
+ * alloc_grid - function to create a 2d int grid
+ * @width: no of columns
+ * @height: no of rows.
+ * Return: pointer to grid or return nada :)
  **/
 int **alloc_grid(int width, int height)
 {
