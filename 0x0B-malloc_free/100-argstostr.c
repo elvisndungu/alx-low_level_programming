@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * argstostr - Concatenate all arguements
- * @ac: Number of arguements
- * @av: Pointer to string arguements
+ * argstostr - Concatenate all args
+ * @ac: No of args aka argc
+ * @av: list array of args aka agv
  * Return: Pointer to new string
  **/
 char *argstostr(int ac, char **av)
