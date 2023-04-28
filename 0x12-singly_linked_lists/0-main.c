@@ -12,11 +12,11 @@ int main(void)
 {
     /*
      * typedef struct list_s
-             {
-            char *str;
-            unsigned int len;
-            struct list_ s *next;
-            } list_t;
+    {
+        char *str;
+        unsigned int len;
+        struct list_s *next;
+} list_t;
      */
     list_t *head;
     list_t *new;
