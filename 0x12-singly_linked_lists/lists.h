@@ -38,6 +38,7 @@ list_t *add_node(list_t **head, const char *str);
 /* task 03 */
 list_t *add_node_end(list_t **head, const char *str);
 
+
 /* task 04 */
 void free_list(list_t *head);
 
