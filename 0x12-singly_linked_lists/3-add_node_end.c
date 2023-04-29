@@ -3,10 +3,10 @@
 #include "lists.h"
 
 /**
- * add_node: appends a node to a linked list :)
+ * add_node_end: appends a node to a linked list :)
  * @head: first node or a null one
  * @str: string/date to put in our node
- * Return: new_node
+ * Return: new_node or null
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
