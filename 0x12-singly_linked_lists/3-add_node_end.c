@@ -49,5 +49,5 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	free(new_node);
 	free(new_str); // free the allocated memory
-	return new_node;
+	return NULL;
 }
