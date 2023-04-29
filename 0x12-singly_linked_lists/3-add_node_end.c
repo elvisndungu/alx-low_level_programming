@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * add_node_end: appends a node to a linked list :)
+ * add_node_end - appends a node to a linked list :)
  * @head: first node or a null one
  * @str: string/date to put in our node
  * Return: new_node or null
