@@ -25,7 +25,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		printf("program dead");
 		return NULL;
 	}
-	strcpy(new_str, str);
+	new_str = strdup(str);
 	new_node->str = new_str;
 	new_node->len = strlen(str);
 	new_node->next = NULL;
