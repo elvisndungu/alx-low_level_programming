@@ -15,7 +15,7 @@ int main(void)
              {
             char *str;
             unsigned int len;
-            struct list_s *next;
+            struct list_ s *next;
             } list_t;
      */
     list_t *head;
