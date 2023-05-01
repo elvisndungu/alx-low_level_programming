@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdarg.h>
 /**
  * free_list - frees list
  * @head: head node
