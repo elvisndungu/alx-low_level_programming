@@ -23,7 +23,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(new_node);
 		free(new_str);
 		printf("program dead");
-		return NULL;
+		return (NULL);
 	}
 	new_str = strdup(str);
 	new_node->str = new_str;
@@ -34,7 +34,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (tmp == NULL)
 	{ /* if head is null then we haven't started */
 		*head = new_node;
-		return new_node;
+		return (new_node);
 
 	}
 
@@ -43,11 +43,11 @@ list_t *add_node_end(list_t **head, const char *str)
 		if (tmp->next == NULL)
 		{
 			tmp->next = new_node;
-			return new_node;
+			return (new_node);
 		}
 		tmp = tmp->next;
 	}
 	free(new_node);
 	free(new_str);
-	return NULL;
+	return (NULL);
 }
