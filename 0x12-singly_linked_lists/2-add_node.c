@@ -12,7 +12,7 @@ list_t *add_node(list_t **head, const char *str)
 {
 	/* string that will be used in our node */
 	char *new_str = malloc(strlen(str) + 1);
-	
+
 	/* initialize new temp node */
 	list_t *new_node = malloc(sizeof(list_t));
 
