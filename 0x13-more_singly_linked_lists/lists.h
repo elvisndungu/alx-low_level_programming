@@ -30,10 +30,10 @@ size_t listint_len(const listint_t *h);
 /* TASK 02 */
 listint_t *add_nodeint(listint_t **head, const int n);
 
-/* TASK 01 */
+/* TASK 03 */
 listint_t *add_nodeint_end(listint_t **head, const int n);
 
-/* TASK 00 */
+/* TASK 04 */
 void free_listint(listint_t *head);
 
 /* TASK 00 */
