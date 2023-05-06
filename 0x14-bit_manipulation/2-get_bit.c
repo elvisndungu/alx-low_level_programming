@@ -5,9 +5,7 @@
  * @index: index of the bit
  *
  * Return: the value of the bit at that particular index
-
  */
-
 int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned long int m;
@@ -16,6 +14,7 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (-1);
 
 	m = 1 << index;
+
 	if (n & m)
 		return (1);
 	else
